@@ -12,7 +12,7 @@ Este repositório não tem fins comerciais e está disponível **apenas para uso
 
 Este repositório é composto por diversos ficheiros e projetos, divididos de acordo com os temas abordados nas aulas de Java. Alguns dos tópicos incluem:
 
-- **Estrutura em XML (if, switch, loops)**
+- **Estrutura em XML**
 - **Estrutura XSL**
 
 Cada diretório ou ficheiro contém exemplos de código, seguidos de explicações e soluções implementadas.
