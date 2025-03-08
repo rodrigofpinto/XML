@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="style.xsl"?>
 
-<CASA_ANTIGA>
-  <INFORMACOES>
-    <NOME_GERENTE>Rodrigo</NOME_GERENTE>
-    <LOCALIZACAO>Ponte de Lima</LOCALIZACAO>
-    <HORARIO_FUNCIONAMENTO>10:00h até 20:00h</HORARIO_FUNCIONAMENTO>
-  </INFORMACOES>
-</CASA_ANTIGA>
+<project_details>
+    <project_title>Rodrigo</project_title>
+    <project_image>mensagens_carinhosas_1_f0.webp</project_image>
+    <project_description>10:00h até 20:00h</project_description>
+</project_details>

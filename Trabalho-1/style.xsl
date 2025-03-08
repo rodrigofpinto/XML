@@ -5,7 +5,7 @@
     <html>
       <head>
         <style>
-          .casa-antiga {
+          .project-details {
             padding: 50px;
             display: flex;
             align-items: center;
@@ -15,24 +15,14 @@
             background-size: cover;
           }
           
-          .informacoes {
-            height: 300px;
-            width: 400px;
-            border: 1px solid white;
-            border-radius: 10px;
-            box-shadow: 1px 1px 10px black;
-            background: rgba(128, 128, 128, 0.842);
-            padding: 20px;
-          }
+          
         </style>
       </head>
       <body>
-        <div class="casa-antiga">
-          <div class="informacoes">
-            <h2>Nome do Gerente: <xsl:value-of select="CASA_ANTIGA/INFORMACOES/NOME_GERENTE" /></h2>
-            <p>Localização: <xsl:value-of select="CASA_ANTIGA/INFORMACOES/LOCALIZACAO" /></p>
-            <p>Horário de Funcionamento: <xsl:value-of select="CASA_ANTIGA/INFORMACOES/HORARIO_FUNCIONAMENTO" /></p>
-          </div>
+        <div class="project-details">
+            <h2>Nome do Gerente: <xsl:value-of select="project_details/project_title" /></h2>
+            <p>Localização: <xsl:value-of select="project_details/project_description" /></p>
+            <img>Horário de Funcionamento: <xsl:value-of select="project_details/project_image" />
         </div>
       </body>
     </html>
